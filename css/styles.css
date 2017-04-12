@@ -3,3 +3,14 @@ h1{
 	color: teal;
 	background-color: lime;
 }
+
+h4{
+	font-style: verdana;
+	color:gray;
+}
+
+p{
+	font-style: arial;
+	color: purple;
+	background-color: yellow;
+}
