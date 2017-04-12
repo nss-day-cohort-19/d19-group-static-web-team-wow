@@ -3,21 +3,27 @@ body{
 }
 h1{
 	color: white;
-	text-align: center;
+	text-align: left;
+	font-family: "Helvetica", sans-serif;
+	font-size: 50px;
+	margin-left: 185px;
 }
 
 #top{
 	position: relative;
 	overflow: hidden;
 	background-color: black;
+	max-width: 100%;
 }
 .mainNav a{
-	float: left;
+	float: right;
 	display: block;
 	color: #f2f4c3;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	max-width: 100%;
+	font-weight: 800;
 }
 .mainNav li{
 	list-style: none;
@@ -35,15 +41,26 @@ h1{
 main{
 	display: flex;
 }
-#navImg{
-	width: 100%;
-	max-width: 100%;
-	opacity: 0.7;
-}
 .wowGif{
 	float: right;
+	margin-top: 15px;
 }
-
+#charger{
+	height: 450px;
+	float: right;
+	margin-left: 85%;
+}
+#hotItem h2,h3,h4{
+	float: right;
+}
 footer{
 	clear: both;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+}
+#wowDoge{
+	height: 45px;
+	max-height: 40%;
+	margin: 0 5px;
 }
