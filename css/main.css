@@ -1,0 +1,31 @@
+body{
+	background-color: lightblue;
+}
+#top{
+	position: relative;
+}
+
+#navImg{
+	width: 100%;
+	max-width: 100%;
+	opacity: 0.7;
+}
+.mainNav  ul,li, a{
+	font-size: 1.15em;
+	font-weight: 25px;
+	display: inline;
+	text-decoration: none;
+	color: lightyellow;
+	padding: 25px 25px;
+}
+.mainNav ul li{
+	text-decoration: none;
+	color: lightyellow;
+	border: 2px solid black;
+}
+main{
+	display: flex;
+}
+footer{
+	clear: both;
+}
