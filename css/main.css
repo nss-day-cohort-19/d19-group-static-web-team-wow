@@ -6,7 +6,7 @@ body{
 	text-align: left;
 	font-family: "Helvetica", sans-serif;
 	font-size: 50px;
-	margin-left: 185px;
+	
 }
 #home{
 	text-decoration: none;
@@ -20,6 +20,9 @@ body{
 	max-width: 100%;
 }
 .mainNav a{
+
+	float: left;
+	display: block;
 	float: right;
 	color: #f2f4c3;
 	padding: 14px 16px;
