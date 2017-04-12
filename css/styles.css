@@ -1,7 +1,10 @@
+body{
+	background-color: lightblue;
+}
+
 h1{
-	font-style: verdana;
-	color: teal;
-	background-color: lime;
+	color: white;
+	text-align: center;
 }
 
 h4{
