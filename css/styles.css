@@ -1,19 +1,30 @@
+
+
 body{
 	background-color: lightblue;
 }
 
-h1{
+.h1{
 	color: white;
 	text-align: center;
+	font-family: "Helvetica", sans-serif;
+	font-size: 50px;
+	
 }
 
 h4{
 	font-style: verdana;
 	color:gray;
+	text-align: left;
 }
 
 p{
 	font-style: arial;
 	color: purple;
 	background-color: yellow;
+	text-align: left;
+}
+
+h3{
+	text-align: left;
 }

@@ -6,7 +6,7 @@ h1{
 	text-align: left;
 	font-family: "Helvetica", sans-serif;
 	font-size: 50px;
-	margin-left: 185px;
+	
 }
 
 #top{
@@ -16,7 +16,7 @@ h1{
 	max-width: 100%;
 }
 .mainNav a{
-	float: right;
+	float: left;
 	display: block;
 	color: #f2f4c3;
 	padding: 14px 16px;
