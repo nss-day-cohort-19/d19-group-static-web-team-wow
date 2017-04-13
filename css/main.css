@@ -1,28 +1,32 @@
 body{
 	background-color: lightblue;
 }
-#logo{
+img{
+	max-width: 100%;
+}
+#businessGraphic {
 	color: white;
-	text-align: left;
+	text-align: center;
 	font-family: "Helvetica", sans-serif;
-	font-size: 50px;
-	
 }
-#home{
-	text-decoration: none;
-	color: white;
+#logo{
 	float: left;
+  color: white;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  margin-left: 0;
 }
-#top{
+/*#top{*/
+header {
 	position: relative;
 	overflow: hidden;
 	background-color: black;
-	max-width: 100%;
+	width: 100%;
+	border-bottom: 8px solid;
+	border-color: cornflowerblue;
+  margin: 0;
 }
 .mainNav a{
-
-	float: left;
-	display: block;
 	float: right;
 	color: #f2f4c3;
 	padding: 14px 16px;
@@ -45,15 +49,42 @@ body{
 .mainNav a:vistied{
 	color: skyblue;
 }
+.mainNav p{
+	line-height: 25%;
+}
 .wrapper{
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 50px;
+}
+
+h4{
+  font-style: verdana;
+  color:gray;
+  text-align: left;
+}
+
+p{
+  font-style: verdana;
+  text-align: left;
+}
+
+h3{
+  text-align: left;
+}
+
+
+
 .wowGif{
 	float: left;
 	margin-top: 15px;
-	max-width: 100%;
 }
 #charger{
 	height: 450px;
@@ -61,17 +92,74 @@ body{
 	margin-left: 85%;
 	max-width: 100%;
 }
-#hotItem h2,h3,h4{
-	float: right;
+#snippet{
+	float: left;
+	border: 5px solid cornflowerblue;
 }
+#snippet p{
+	font-style: Tahoma;
+	font-size: 1.2em;
+	font-weight: 800;
+
+}
+
+
+/* product card interaction */
+#hotItem li{
+	float: left;
+	 width: 45%;
+	 margin: 2.5%;
+	background-color: lightgrey;
+	list-style: none;
+}
+
+#hotItem li p{
+	margin: 0;
+	padding: 5%;
+	font-size: 1.15em;
+}
+
+
+
+
+
+
 footer{
+  background-color: orange;
 	clear: both;
 	font-size: 0.75em;
 	text-align: center;
-	padding-top: 50px;
+	padding: 5%;
+  margin: 0;
 }
+
+
 #wowDoge{
 	height: 45px;
 	max-height: 40%;
 	margin: 0 5px;
+}
+
+
+/*******************
+	MEADIA QUERY FOR DIFFERENT SCREEN SIZES
+*******************/
+@media screen and (min-width: 480px){
+	#hotItem li{
+		width: 28.3333%;
+	}
+	#hotItem li:nth-child(4n){
+		clear left;
+	}
+
+}
+@media screen and (min-width: 660px){
+	   nav {
+      background: none;
+      float: right;
+      font-size: 1.125em;
+      margin-right: 5%;
+      text-align: right;
+      width: 35%;
+    }
 }
