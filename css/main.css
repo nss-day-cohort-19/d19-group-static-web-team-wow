@@ -4,24 +4,27 @@ body{
 img{
 	max-width: 100%;
 }
-#logo{
+#businessGraphic {
 	color: white;
-	text-align: left;
+	text-align: center;
 	font-family: "Helvetica", sans-serif;
-	font-size: 50px;
-	margin-left: 185px;
 }
-#home{
-	text-decoration: none;
+#logo{
 	float: left;
+  color: white;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  margin-left: 0;
 }
-#top{
+/*#top{*/
+header {
 	position: relative;
 	overflow: hidden;
 	background-color: black;
 	width: 100%;
 	border-bottom: 8px solid;
 	border-color: cornflowerblue;
+  margin: 0;
 }
 .mainNav a{
 	float: right;
@@ -54,6 +57,31 @@ img{
 	margin: 0 auto;
 	padding: 0 5%;
 }
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 50px;
+}
+
+h4{
+  font-style: verdana;
+  color:gray;
+  text-align: left;
+}
+
+p{
+  font-style: verdana;
+  text-align: left;
+}
+
+h3{
+  text-align: left;
+}
+
+
+
 .wowGif{
 	float: left;
 	margin-top: 15px;
@@ -75,10 +103,12 @@ img{
 
 }
 
+
+/* product card interaction */
 #hotItem li{
 	float: left;
-	width: 45%;
-	margin: 2.5%;
+	 width: 45%;
+	 margin: 2.5%;
 	background-color: lightgrey;
 	list-style: none;
 }
@@ -88,17 +118,29 @@ img{
 	padding: 5%;
 	font-size: 1.15em;
 }
+
+
+
+
+
+
 footer{
+  background-color: orange;
 	clear: both;
 	font-size: 0.75em;
 	text-align: center;
-	padding-top: 50px;
+	padding: 5%;
+  margin: 0;
 }
+
+
 #wowDoge{
 	height: 45px;
 	max-height: 40%;
 	margin: 0 5px;
 }
+
+
 /*******************
 	MEADIA QUERY FOR DIFFERENT SCREEN SIZES
 *******************/
