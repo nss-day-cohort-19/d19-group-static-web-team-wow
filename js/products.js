@@ -13,18 +13,19 @@ var products = [{name:"Broken Apple charger ",description:" A broken charger for
 
 
 
-var productsText="<ul>";
+var productsText="";
 
-for (var i = 0; i < products.length; i++){
-	// jediText += jedi[i] + " is a <strong>Jedi</strong>. <br>";
+var i;
 
-	productsText += `<img src="${products[i].url}" height='200' width='200'>`;
-	productsText += `<li>${products[i].name}`;
-	productsText += `${products[i].description}`;
-	productsText += `${products[i].price}</li>`;
-	if (i===2 || i===5){
-		productsText += "<br>";
-	}
+
+for (i in products){
+
+
+	productsText += `<section><article><img src="${products[i].url}" height='200' width='200'></article>
+					<article>${products[i].name}</article>
+					<article>${products[i].description}</article>
+					<article>${products[i].price}</article></section>`;
+	
 }
 document.getElementById("demo").innerHTML = productsText;
 
