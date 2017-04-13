@@ -122,14 +122,12 @@ h3{
 
 
 
-
-
 footer{
-  background-color: orange;
+  	background-color: orange;
 	clear: both;
 	font-size: 0.75em;
 	text-align: center;
-	padding: 5%;
+	padding: 0.25%;
   margin: 0;
 }
 
