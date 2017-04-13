@@ -4,6 +4,16 @@ body{
 img{
 	max-width: 100%;
 }
+
+section {
+	display: inline-block;
+	width: 30%;
+	margin-left: 2.5%;
+	border: 1px solid lightblue;
+	margin-bottom: 3em;
+}
+
+
 #businessGraphic {
 	color: white;
 	text-align: center;
