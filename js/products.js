@@ -1,7 +1,3 @@
-console.log("i am here");
-
-
-
 var products = [{name:"Broken Apple charger ",description:" A broken charger for most Apple products.",price:"$24.99",url:"images/charger.jpeg"},
 				{name:"Broken Change Pot",description:" Still capable to hold change (change not included) ",price:"$10.99 ",url:"images/brokenpot.jpeg"},
 				{name:"Broken Glass. ",description:"It may be broken but you can still drink from it, if you're into that ",price:" $4.99",url:"images/brokenglass.jpeg"},
