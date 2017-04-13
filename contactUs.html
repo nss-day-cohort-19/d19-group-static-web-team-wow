@@ -23,9 +23,27 @@
   </header>
   <main class="wrapper">
 
-    <div background-color='pink' text-align='center'>
-      <h1> contact form will be here after lunch, once i've untangled some more of this css </h1>
-    </div>
+    <form id='contactForm'>
+      <fieldset>
+        <legend>Contact us:</legend>
+
+          <label for="first-name">First Name:</label>
+          <input type="text" name="first-name" size="25" maxlength="40"> 
+
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" size="25" maxlength="40">
+
+          <label for="email">Email:</label>
+          <input type="text" name="email" size="25" maxlength="40">
+
+          <label for="message">Message:</label>
+          <input type="text" name="message" size="25" maxlength="40">
+      </fieldset>
+      <!-- Submit Button -->
+      <fieldset>
+                <input type="submit" id="submit-form">
+      </fieldset>
+    </form>
 
       
   </main>
